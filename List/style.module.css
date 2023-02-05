@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#input-area {
+    display: flex;
+    justify-content: center;
+}
+
+#inputTxt {
+    width: 40%;
+    margin: 20px;
+    border: 2px solid rgb(111, 1, 255);
+    border-radius: 5px;
+    background-color: rgb(151, 188, 238);
+    padding: 0px 0px 0px 10px;
+}
+
+#inputBtn {
+    margin: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(149, 0, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+h4 {
+    margin-left: 50%;
+}
+
+#listArea {
+    width: 30%;
+    justify-self: center;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+li {
+    width: 100%;
+    border: 2px solid rgb(131, 62, 20);
+    border-radius: 5px;
+    background-color: rgb(255, 183, 27);
+    padding: 5px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 639px){
+    * {
+        font-size: large;
+    }
+    #input-area {
+        width: 100%;
+    }
+
+    #inputTxt {
+        padding: 2%;
+    }
+
+    #listArea {
+        width: 80%;
+    }
+}
